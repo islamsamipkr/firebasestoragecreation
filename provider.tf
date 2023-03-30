@@ -13,4 +13,5 @@ terraform {
 # Including `user_project_override = true` is required if a `billing_project` is specified.
 provider "google-beta" {
  #user_project_override = true
+  impersonate_service_account="impersonate-service-account@avian-amulet-378416.iam.gserviceaccount.com"
 }
