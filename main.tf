@@ -4,6 +4,6 @@ provider "google-beta" {
 
 resource "google_firebase_storage_bucket" "default" {
   provider  = google-beta
-  project   = "my-project-name"
-  bucket_id = google_storage_bucket.default.id
+  project   = "avian-amulet-378416"
+  bucket_id = "gs://firebasestoragebucket"
 }
