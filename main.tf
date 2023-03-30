@@ -1,6 +1,6 @@
 resource "google_storage_bucket" "default" {
   provider                    = google-beta
-  name                        = "test_bucket"
+  name                        = "google_cloud_storage_bucket_1"
   location                    = "northamerica-northeast1"
   project   = "avian-amulet-378416"
   uniform_bucket_level_access = true
