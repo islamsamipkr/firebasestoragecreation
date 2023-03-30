@@ -1,6 +1,6 @@
 resource "google_storage_bucket" "default" {
   provider                    = google-beta
-  name                        = "google_cloud_storage_bucket_1"
+  name                        = "cloud_storage_firebase_bucket_1_sami"
   location                    = "northamerica-northeast1"
   project   = "avian-amulet-378416"
   uniform_bucket_level_access = true
