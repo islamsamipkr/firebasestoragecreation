@@ -12,5 +12,5 @@ terraform {
 # In this guide, this project is referred to as the "quota-check project".
 # Including `user_project_override = true` is required if a `billing_project` is specified.
 provider "google-beta" {
-  user_project_override = true
+ #user_project_override = true
 }
